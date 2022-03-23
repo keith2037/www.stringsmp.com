@@ -15,7 +15,6 @@ h2{
     align-items: center;
 	font-size: 14em;
 	font-family: "Minecraft Ten";
-	// effect:
 	transform-origin: bottom left;
 	color: transparent;
 	text-shadow:
@@ -46,7 +45,28 @@ p{
 	font-family: "Minecraft";
     background-color: rgba(255,255,255,0.5);
 }
+a{
+	
+	font-size: 2.1em
+}
+a:link{
+	color:white;
+}
+a:active {
+	color:#a6a6a6;
+}
+button {
+	width: 10em;
+	height: 5em;
+	box-shadow: 5px 5px 5px black;
+}
+button:hover{
+	background-color:white;
+}
+button:active{
+	background-color:grey;
+}
 footer{
-	font-family: "Minecraft"
-	color: rgba(255,255,255,0.5)
+	font-family: "Minecraft";
+	color: rgba(255,255,255,0.5);
 }
